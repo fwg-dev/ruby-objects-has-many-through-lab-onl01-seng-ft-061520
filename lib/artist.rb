@@ -5,7 +5,7 @@ class Artist
     @name = name
     @@all << self
     @songs = []
-    @genre = "rap"
+    # @genre = "rap"
 
   end
   def self.all
@@ -19,7 +19,4 @@ def add_song(song)
    song.artist = self
  end
 
- # def songs
- #   Song.all.select {|song| song.artist == self}
- # end
 end
