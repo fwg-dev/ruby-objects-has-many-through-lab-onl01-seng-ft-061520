@@ -6,7 +6,7 @@ class Artist
     @@all << self
     @songs = []
     @genre = "rap"
-    # @songs = []
+
   end
   def self.all
     @@all
