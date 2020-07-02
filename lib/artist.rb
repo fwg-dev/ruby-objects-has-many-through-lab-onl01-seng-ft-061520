@@ -11,8 +11,8 @@ class Artist
     @@all
   end
 
- #  def songs
- #    @songs
+ #  def songs(genre)
+ #    @songs = "rap"
  #  end
 
  # def songs
