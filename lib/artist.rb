@@ -1,6 +1,6 @@
 class Artist
   @@all = []
-  attr_accessor :name, :Genre
+  attr_accessor :name, :genre
   def initialize(name)
     @name = name
     @@all << self
