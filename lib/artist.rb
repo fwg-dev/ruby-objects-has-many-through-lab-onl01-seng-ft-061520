@@ -11,8 +11,6 @@ class Artist
     @@all
   end
 
-
- # end
  #  def songs
  #    @songs
  #  end
