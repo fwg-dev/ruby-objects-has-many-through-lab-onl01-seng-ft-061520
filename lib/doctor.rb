@@ -17,7 +17,9 @@ def new_appointment(date, patient)
   Appointment.new(date, patient, self)
 end
 
-# def patients
+def patients
+appointments.map(&:patient)
+end 
 # def genres
 #   songs.map(&:genre)
 # end
