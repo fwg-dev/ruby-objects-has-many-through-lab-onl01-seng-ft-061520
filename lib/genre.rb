@@ -15,5 +15,5 @@ end
 
 def artist
   songs.map(&:artist)
-end 
+end
 end
