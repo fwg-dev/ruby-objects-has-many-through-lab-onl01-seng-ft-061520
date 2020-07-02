@@ -22,4 +22,4 @@ def add_song(song)
  def songs
    Song.all.select {|song| song.artist == self}
  end
-end 
+end
