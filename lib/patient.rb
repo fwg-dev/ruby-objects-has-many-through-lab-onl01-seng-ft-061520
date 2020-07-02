@@ -17,4 +17,4 @@ end
 def doctors
   appointment.map(&:doctor)
 end
-end 
+end
